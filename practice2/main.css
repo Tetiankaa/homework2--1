@@ -1,0 +1,44 @@
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.small_contain {
+    width: 1400px;
+    height: 700px;
+    background: darksalmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.number1, .number2, .number3, .number4, .number5, .number6 {
+    width: 550px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+i {
+    width: 150px;
+    height: 150px;
+    /*background: orange;*/
+    font-size: 60px;
+    padding: 42px;
+    box-sizing: border-box;
+    color: orange;
+}
+h3 {
+    /*background: deepskyblue;*/
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+p {
+    color: orange;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin: 0;
+}
