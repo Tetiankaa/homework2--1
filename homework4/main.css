@@ -1,0 +1,43 @@
+.one {
+    display: flex;
+    justify-content: space-around;
+}
+.classA {
+    width: 100%;
+    height: 400px;
+    background: deeppink;
+    margin-bottom: 10px;
+}
+.classB {
+    width: 80%;
+    height: 600px;
+    background: hotpink;
+    margin-right: 10px;
+}
+.classC {
+    width: 20%;
+    height: 600px;
+    background: lightpink;
+}
+@media screen and (min-width: 0) and (max-width: 992px) {
+
+    .classA {
+        border-radius: 20px;
+        height: 100px;
+    }
+    .one {
+        display: flex;
+        flex-direction: column;
+    }
+    .classB {
+        width: 100%;
+        border-radius: 20px;
+        height: 370px;
+    }
+    .classC {
+        width: 100%;
+        border-radius: 20px;
+        height: 130px;
+        margin-top: 10px;
+    }
+}
